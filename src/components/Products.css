@@ -1,18 +1,23 @@
 body{
     height: 100%;
     width:100%;
-    font-style: italic;
-    background: linear-gradient(to bottom right, black, rgb(77, 77, 80)) ;
+    font-style: normal;
+   
+}
+.produce{
+  text-align: center;
+  color: #81AE46;
 }
 .product {
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 .items{
-  flex:1 0 25%; 
-    margin: 5px;
-    height: 100px;
-    border: 1px solid black;
+  flex:1 0 15%; 
+  border-right: 1px solid #E9ECEF;
+  border-bottom: 1px solid #E9ECEF;
+  
 }
 
   .product div {
@@ -23,8 +28,12 @@ body{
   }
 
   .product-img{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .product-name:hover, .product-price:hover{
+    color: #0157B3;
   }
 
  
