@@ -1,0 +1,81 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.hunger{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.logo-container{
+    display: flex;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex:1;
+
+   
+}
+
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    align-items: flex-end;
+}
+
+.form-input{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #38393A;
+    background-color: #fff;
+    border: 1px solid #CED4DA;
+    border-radius: .25rem;
+
+}
+input{
+    align-items: center;
+}
+
+.cart-pic{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-left: 20px ;
+
+}
+.number{
+    margin-right: 20px;
+    color: red;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    
+}
+.login, .signup {
+    margin-right: 20px;
+    border-radius: .25rem; 
+    background-color: #00AD45;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.together{
+    display: flex;
+    align-items: center;
+}
+
+
